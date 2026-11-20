@@ -1,0 +1,49 @@
+{
+	"frostedfoliage.screen.title": "Frosted Foliage Settings",
+	"frostedfoliage.screen.plants": "Which plants turn white",
+	"frostedfoliage.screen.enable_all": "Turn All On",
+	"frostedfoliage.screen.disable_all": "Turn All Off",
+
+	"key.category.frostedfoliage.frostedfoliage": "Frosted Foliage",
+	"key.frostedfoliage.settings": "Open Frosted Foliage settings",
+	"key.frostedfoliage.toggle": "Toggle Frosted Foliage",
+	"frostedfoliage.toggle.on": "Frosted Foliage: ON",
+	"frostedfoliage.toggle.off": "Frosted Foliage: OFF",
+
+	"frostedfoliage.command.preview": "Showing plants frosted to %s%% (until you run /frostedfoliage preview off)",
+	"frostedfoliage.command.preview_off": "Frost now follows the real weather again",
+
+	"frostedfoliage.group.leaves": "Leaves",
+	"frostedfoliage.group.ground": "Grass and Ground Cover",
+	"frostedfoliage.group.flowers": "Flowers",
+	"frostedfoliage.group.crops": "Crops",
+	"frostedfoliage.group.saplings": "Saplings",
+	"frostedfoliage.group.other": "Other Plants",
+	"frostedfoliage.plant.modded_leaves": "Leaves from Other Mods",
+
+	"frostedfoliage.option.seconds.value": "%s: %ss",
+	"frostedfoliage.option.percent.value": "%s: %s%%",
+	"frostedfoliage.option.number.value": "%s: %s",
+
+	"frostedfoliage.option.enabled": "Frosted Foliage",
+	"frostedfoliage.option.enabled.tooltip": "Master switch. When off, plants look the same in snow as in any other weather.",
+
+	"frostedfoliage.option.whiten_seconds": "Time to Whiten",
+	"frostedfoliage.option.whiten_seconds.tooltip": "How many seconds of snowfall it takes for plants to turn completely white. They whiten a little at a time while it snows.",
+
+	"frostedfoliage.option.melt_seconds": "Time to Melt",
+	"frostedfoliage.option.melt_seconds.never": "%s: Never",
+	"frostedfoliage.option.melt_seconds.tooltip": "How many seconds after the snow stops until the white is gone again. Never keeps plants white until you leave the world.",
+
+	"frostedfoliage.option.variation": "Variation",
+	"frostedfoliage.option.variation.tooltip": "How unevenly plants whiten. At 0 every plant changes at the same moment; higher values let some turn white sooner than others.",
+
+	"frostedfoliage.option.whiten_sides": "Whiten Sides",
+	"frostedfoliage.option.whiten_sides.tooltip": "On: anything with open sky beside it turns white, so the whole outside of a tree is white, not just its top.\nOff: only what is open to the sky from above turns white.\nLeaves buried inside a tree, and plants under a roof or a tree, stay as they are either way.",
+
+	"frostedfoliage.option.cover_layers": "Cover Allowed",
+	"frostedfoliage.option.cover_layers.tooltip": "How many blocks of cover can sit above a plant before snow no longer reaches it.\n0: nothing may be above it.\nHigher: leaves further inside a tree, and plants under a thin roof of leaves, turn white too.",
+
+	"frostedfoliage.option.steps": "Smoothness",
+	"frostedfoliage.option.steps.tooltip": "How many stages the whitening is split into. More stages look smoother, but chunks are rebuilt more often while the snow builds up."
+}

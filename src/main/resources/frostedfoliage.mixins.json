@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "dev.frostedfoliage.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"SpriteSourcesMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
